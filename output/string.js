@@ -1,0 +1,14 @@
+var str = "Hello, Ayush Kumar";
+var age = 21;
+var info = `My name is ${str} and my age is ${age}`;
+console.log(info);
+var num = 5;
+var data = num.toString();
+var data2 = "" + num;
+console.log(data);
+console.log(data2);
+var bool = true;
+var bool2 = false;
+console.log(bool);
+console.log(bool2);
+export {};
