@@ -1,5 +1,6 @@
 let userData20 = "Nidhi";
 userData20 = true;
+// typeof guard
 if (typeof userData20 == "boolean") {
     console.log("boolean data type");
 }
@@ -9,6 +10,7 @@ else if (typeof userData20 == "string") {
 else {
     console.log("number data type");
 }
+// instance of guard
 class Product21 {
 }
 var p1 = new Product21();

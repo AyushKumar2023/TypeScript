@@ -2,6 +2,8 @@ let userData20:number|string|boolean="Nidhi"
 
 userData20=true
 
+// typeof guard
+
 if(typeof userData20=="boolean"){
     console.log("boolean data type")
 }else if(typeof userData20=="string"){
@@ -11,6 +13,7 @@ if(typeof userData20=="boolean"){
 }
 
 
+ // instance of guard
  
 class Product21{
 }
@@ -30,6 +33,8 @@ function checkDetails(data:Product21|Order21){
 
 checkDetails(o1)
 
+
+// custom type guard
 
 interface userData{
     name:number,
